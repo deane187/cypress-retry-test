@@ -1,0 +1,13 @@
+{
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOpts.json"
+  },
+  "scripts": {
+    "cy:run": "cypress run"
+  },
+  "retries": {
+    "runMode": 3,
+    "openMode": 1
+  }
+}

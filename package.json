@@ -1,0 +1,25 @@
+{
+  "name": "new-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.5.0",
+    "cypress-multi-reporters": "1.4.0",
+    "mocha-junit-reporters": "1.23.6",
+    "mocha-slack-reporter": "0.0.8",
+    "mochawesome": "6.1.1",
+    "mochawesome-merge": "4.2.0",
+    "mochawesome-report-generator": "5.1.0"
+    
+  },
+  "devDependencies": {
+    "mocha": "^8.2.0"
+  }
+}
